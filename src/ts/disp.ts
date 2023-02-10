@@ -22,7 +22,7 @@ function bootstrapDisp() {
     const password = document.createElement("p");
     const id = document.createElement("p");
     const credit = document.createElement("p");
-    const picture = document.createElement("img");
+    const picture = document.createElement("p");
 
     for (let i = 0; i < 20; i++) {
         fullName.textContent = "Name: " + filtered50[i].name;
