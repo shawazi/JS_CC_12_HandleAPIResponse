@@ -10,20 +10,20 @@ function appendToMainContainer(result) {
     (_a = document.getElementById("bootstrap-container")) === null || _a === void 0 ? void 0 : _a.appendChild(result);
 }
 function bootstrapDisp() {
-    const card = document.createElement("div");
-    card.classList.add("card");
-    const fullName = document.createElement("h2");
-    const city = document.createElement("p");
-    const country = document.createElement("p");
-    const age = document.createElement("p");
-    const gender = document.createElement("p");
-    const email = document.createElement("p");
-    const username = document.createElement("p");
-    const password = document.createElement("p");
-    const id = document.createElement("p");
-    const credit = document.createElement("p");
-    const picture = document.createElement("p");
     for (let i = 0; i < 20; i++) {
+        const card = document.createElement("div");
+        card.classList.add("card", "w-50");
+        const fullName = document.createElement("h2");
+        const city = document.createElement("p");
+        const country = document.createElement("p");
+        const age = document.createElement("p");
+        const gender = document.createElement("p");
+        const email = document.createElement("p");
+        const username = document.createElement("p");
+        const password = document.createElement("p");
+        const id = document.createElement("p");
+        const credit = document.createElement("p");
+        const picture = document.createElement("p");
         fullName.textContent = "Name: " + filtered50[i].name;
         city.textContent = filtered50[i].city;
         country.textContent = filtered50[i].country;
