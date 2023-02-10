@@ -9,12 +9,13 @@ body {
     height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow-x: hidden;
+    background-color: aqua;
 }
 
 header {
     color: white;
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 
 main {
@@ -27,7 +28,29 @@ section {
 }
 
 .card {
-    display: inline-block;
-    margin-bottom: 1rem;
+    /* display: inline-block; */
+    /* margin-bottom: 1rem; */
     box-shadow: 2px 2px 2px 2px black;
+    background-color: rgb(61, 78, 110);
+    color: white;
+}
+
+.list-group-item {
+    background-color: aqua;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    margin-left: 1rem;
+}
+
+button {
+    width: 4rem;
+}
+
+#please-center {
+    display: flex;
+    justify-content: center;
 }
