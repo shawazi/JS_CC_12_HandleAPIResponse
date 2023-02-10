@@ -25,3 +25,9 @@ main {
 section {
     padding-left: 2rem;
 }
+
+.card {
+    display: inline-block;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 2px 2px black;
+}

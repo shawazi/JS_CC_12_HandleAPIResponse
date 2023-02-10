@@ -12,8 +12,12 @@ function appendToMainContainer(result: any) {
 function bootstrapDisp() {
 
     for (let i = 0; i < 20; i++) {
+        const pleaseROW = document.createElement("div");
+        pleaseROW.classList.add("col-mb-4");
         const card = document.createElement("div");
-        card.classList.add("card", "w-50");
+        card.classList.add("card", "w-75");
+        const cardBody = document.createElement("div");
+        cardBody.classList.add("card-body");
         const fullName = document.createElement("h2");
         const city = document.createElement("p");
         const country = document.createElement("p");
@@ -25,7 +29,7 @@ function bootstrapDisp() {
         const id = document.createElement("p");
         const credit = document.createElement("p");
         const picture = document.createElement("p");
-        
+
         fullName.textContent = "Name: " + filtered50[i].name;
         city.textContent = filtered50[i].city;
         country.textContent = filtered50[i].country;
@@ -38,9 +42,10 @@ function bootstrapDisp() {
         credit.textContent = filtered50[i].credit;
         picture.textContent = filtered50[i].picture;
 
-        card.append(fullName, city, country, age, gender, email, username, password, id, credit, picture);
-        
-        appendToMainContainer(card);
+        cardBody.append(fullName, city, country, age, gender, email, username, password, id, credit, picture);
+        card.appendChild(cardBody);
+        pleaseROW.appendChild(card);
+        appendToMainContainer(pleaseROW);
     }
 
     
