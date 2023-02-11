@@ -41,7 +41,7 @@ function bootstrapDisp() {
         id.textContent = filtered50[i].id;
         credit.textContent = filtered50[i].credit;
         picture.setAttribute("src", filtered50[i].picture);
-        picture.setAttribute("style", "float: right; bottom: 2%;");
+        picture.setAttribute("style", "float: right; display: inline-block; bottom: 5px;");
 
         // pleaseROW.setAttribute("src", filtered50[i].picture);
 
