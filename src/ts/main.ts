@@ -90,16 +90,8 @@ async function getText(file: string) {
     bootstrapDisp();
     appendToList("Displayed below");
 
-    
-
-    // for (let i = 0; i < 20; i++) {
-    //     fullName.textContent = 
-    // }
-
-    
-    
-
-
+    // 8. add filter buttons for men, women, and all
+    appendToList("filtration buttons below")
 };
 
 getText("https://randomuser.me/api/?results=500&seed=foo");

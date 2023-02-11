@@ -9,6 +9,7 @@ const all = document.getElementById("all");
 
 men?.addEventListener("click", () => {
     // console.log("filter and display only men");
+    filtered50 = globalUsers.filter((obj: any) => obj.credit > 50);
     filtered50 = filtered50.filter((obj: any) => obj.gender == "male");
     
     // console.log(filtered50)
@@ -17,6 +18,7 @@ men?.addEventListener("click", () => {
 });
 
 women?.addEventListener("click", () => {
+    filtered50 = globalUsers.filter((obj: any) => obj.credit > 50);
     filtered50 = filtered50.filter((obj: any) => obj.gender == "female");
     document.getElementById("bootstrap-container")!.innerHTML = "";
     // bootstrapDisp();
@@ -25,6 +27,7 @@ women?.addEventListener("click", () => {
 });
 
 all?.addEventListener("click", () => {
+    filtered50 = globalUsers.filter((obj: any) => obj.credit > 50);
     document.getElementById("bootstrap-container")!.innerHTML = "";
     bootstrapDisp();
 })
