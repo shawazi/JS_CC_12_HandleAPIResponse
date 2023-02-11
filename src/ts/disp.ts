@@ -31,17 +31,18 @@ function bootstrapDisp() {
         const picture = document.createElement("img");
 
         fullName.textContent = "Name: " + filtered50[i].name;
-        city.textContent = filtered50[i].city;
-        country.textContent = filtered50[i].country;
-        age.textContent = filtered50[i].age;
-        gender.textContent = filtered50[i].gender;
-        email.textContent = filtered50[i].email;
-        username.textContent = filtered50[i].username;
-        password.textContent = filtered50[i].password;
-        id.textContent = filtered50[i].id;
-        credit.textContent = filtered50[i].credit;
+        city.textContent = "City: " + filtered50[i].city;
+        country.textContent = "Country: " + filtered50[i].country;
+        age.textContent = "Age: " + filtered50[i].age;
+        gender.textContent = "Gender: " + filtered50[i].gender;
+        email.textContent = "Email: " + filtered50[i].email;
+        username.textContent = "Username: " + filtered50[i].username;
+        password.textContent = "Password: " + filtered50[i].password;
+        id.textContent = "ID: " + filtered50[i].id;
+        credit.textContent = "Credit: " + filtered50[i].credit;
         picture.setAttribute("src", filtered50[i].picture);
-        picture.setAttribute("style", "float: right; display: inline-block;");
+        picture.setAttribute("class", "card-img-bottom");
+        picture.setAttribute("style", "float: right;");
 
         // pleaseROW.setAttribute("src", filtered50[i].picture);
 
