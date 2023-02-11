@@ -85,7 +85,7 @@ async function getText(file: string) {
 
     filtered50 = globalUsers.filter((obj: any) => obj.credit > 50);
 
-    console.log(filtered50);
+    // console.log(filtered50);
 
     bootstrapDisp();
     appendToList("Displayed below");
