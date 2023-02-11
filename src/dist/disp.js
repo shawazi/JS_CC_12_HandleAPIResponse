@@ -39,7 +39,6 @@ function bootstrapDisp() {
         id.textContent = filtered50[i].id;
         credit.textContent = filtered50[i].credit;
         picture.textContent = filtered50[i].picture;
-        // pleaseROW.setAttribute("src", filtered50[i].picture);
         cardBody.append(fullName, city, country, age, gender, email, username, password, id, credit, picture);
         card.appendChild(cardBody);
         pleaseROW.appendChild(card);
