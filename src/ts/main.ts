@@ -91,7 +91,7 @@ async function getText(file: string) {
     appendToList("Displayed below");
 
     // 8. add filter buttons for men, women, and all
-    appendToList("filtration buttons below")
+    appendToList("Filtration buttons below")
 };
 
 getText("https://randomuser.me/api/?results=500&seed=foo");

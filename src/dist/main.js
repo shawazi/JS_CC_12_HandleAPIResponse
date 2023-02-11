@@ -76,7 +76,7 @@ function getText(file) {
         bootstrapDisp();
         appendToList("Displayed below");
         // 8. add filter buttons for men, women, and all
-        appendToList("filtration buttons below");
+        appendToList("Filtration buttons below");
     });
 }
 ;
