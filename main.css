@@ -26,7 +26,8 @@ main {
 #bootstrap-container {
     /* margin-left: 2rem; */
     /* padding-left: 2rem; */
-    margin: 0 2rem 2rem 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .card {
