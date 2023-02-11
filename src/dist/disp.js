@@ -27,7 +27,7 @@ function bootstrapDisp() {
         const password = document.createElement("p");
         const id = document.createElement("p");
         const credit = document.createElement("p");
-        const picture = document.createElement("p");
+        const picture = document.createElement("img");
         fullName.textContent = "Name: " + filtered50[i].name;
         city.textContent = filtered50[i].city;
         country.textContent = filtered50[i].country;
@@ -38,7 +38,8 @@ function bootstrapDisp() {
         password.textContent = filtered50[i].password;
         id.textContent = filtered50[i].id;
         credit.textContent = filtered50[i].credit;
-        picture.textContent = filtered50[i].picture;
+        picture.setAttribute("src", filtered50[i].picture);
+        picture.setAttribute("style", "float: right; bottom: 2%;");
         cardBody.append(fullName, city, country, age, gender, email, username, password, id, credit, picture);
         card.appendChild(cardBody);
         pleaseROW.appendChild(card);
