@@ -23,8 +23,10 @@ main {
     font-size: small;
 }
 
-section {
-    padding-left: 2rem;
+#bootstrap-container {
+    /* margin-left: 2rem; */
+    /* padding-left: 2rem; */
+    margin: 0 2rem 2rem 0;
 }
 
 .card {
@@ -39,19 +41,19 @@ section {
     background-color: aqua;
 }
 
-#button {
+/* #button {
     display: flex;
     justify-content: center;
-    /* text-align: center; */
+    text-align: center;
     margin-left: 1rem;
-}
+} */
 
 button {
     width: 4rem;
 }
 
 #please-center {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 

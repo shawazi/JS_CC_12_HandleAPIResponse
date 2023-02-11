@@ -25,7 +25,7 @@ async function getText(file: string) {
     // it is impossible to append the object to the div, but converted to a string the data is too large
     
     console.log(over40);
-    // i should make an ordered list with each item the name of each user over age 40
+    // i should make an ordered list with each item the name of each user over age 40, WITHIN A DIV WITH SCROLL ENABLED!
     // append(over40);
     appendToList("List of users in console");
 

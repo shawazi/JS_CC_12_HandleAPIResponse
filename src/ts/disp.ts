@@ -15,7 +15,7 @@ function bootstrapDisp() {
         const pleaseROW = document.createElement("div");
         pleaseROW.classList.add("col-mb-5", "col", "mb-3");
         const card = document.createElement("div");
-        card.classList.add("card", "w-75", "h-100", "text-light", "bg-dark");
+        card.classList.add("card", "w-100", "h-100", "text-light", "bg-dark");
         const cardBody = document.createElement("div");
         cardBody.classList.add("card-body");
         const fullName = document.createElement("h2");
@@ -49,7 +49,4 @@ function bootstrapDisp() {
         pleaseROW.appendChild(card);
         appendToMainContainer(pleaseROW);
     }
-
-    
-
 }
